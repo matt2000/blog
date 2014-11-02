@@ -69,6 +69,8 @@ To build the Firefox OS source code, you must install the following packages:
         zip \
         openjdk-6-jdk
 
+Recent versions of Ubuntu will not be able to find `ia32-libs`. This may not be an issue, so simply remov ethat package from the list. Instead, you may need to install `lib32bz2-1.0`.
+
 ### Clone the B2G repository
 
 Just grab the source from the GitHub repository:
